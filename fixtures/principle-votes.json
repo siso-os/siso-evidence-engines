@@ -1,0 +1,11 @@
+[
+  {
+    "id": "f8b4c34626843c50d3c5cd80",
+    "consensus_count": 1,
+    "votes": [
+      {"test_grounded":1,"test_actionable":1,"test_general":1,"test_not_contradicted":1,"source_tier":"research","note":"Citation and mechanism are checkable."},
+      {"test_grounded":1,"test_actionable":1,"test_general":1,"test_not_contradicted":1,"source_tier":"research","note":"The statement is operational and general."},
+      {"test_grounded":1,"test_actionable":1,"test_general":1,"test_not_contradicted":1,"source_tier":"research","note":"No stronger contradiction is present in the fixture."}
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "5384d28289ad3e3417692960",
+    "votes": [
+      {"test_grounded":1,"test_novel":1,"test_right_layer":1,"test_not_gameable":1,"roi":5,"effort":1,"risk":1,"note":"Direct source gate."},
+      {"test_grounded":1,"test_novel":1,"test_right_layer":1,"test_not_gameable":1,"roi":5,"effort":2,"risk":1,"note":"Low-cost structural check."},
+      {"test_grounded":1,"test_novel":1,"test_right_layer":1,"test_not_gameable":1,"roi":4,"effort":1,"risk":1,"note":"High value and reversible."}
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+*.db
+*.sqlite
+*.sqlite3
+__pycache__/
+*.py[cod]
+.DS_Store
+corpus/
+data/
+exports/
+dist/

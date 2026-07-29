@@ -1,0 +1,4 @@
+[
+  {"title":"Add a provenance gate","body":"Reject new research items without a source locator.","proposer":"fixture-agent","source_finding":"fixture-study","evidence":"The fixture contains a checkable recovery-time result.","grounding_proof":"Run the system test.","target":"packages/evidence-core","action":"edit","blast_radius":"safe-text","reversible":true},
+  {"title":"Unbacked rewrite","body":"Rewrite everything.","proposer":"fixture-agent","target":"strategy"}
+]

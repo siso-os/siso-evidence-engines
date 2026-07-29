@@ -1,0 +1,20 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SISO Evidence Engines — Architecture</title>
+<style>body{font:16px/1.55 system-ui;max-width:1050px;margin:auto;padding:32px;color:#17202a}pre,code{background:#f4f6f7;padding:.15rem .35rem;border-radius:5px}pre{padding:18px;overflow:auto}table{border-collapse:collapse;width:100%}th,td{border:1px solid #d5d8dc;padding:9px;text-align:left}.callout{border-left:4px solid #2471a3;padding:12px 16px;background:#ebf5fb}footer{margin-top:40px;color:#566573}</style></head><body>
+<h1>SISO Evidence Engines</h1><p>A Research-section package family for traceable knowledge, credibility-ranked principles, and evidence-gated ideas.</p>
+<h2>Why one repository first</h2><p>The three outcomes are distinct, but today they share the same source identity, grounding, provenance, jury, scoring, status, and export primitives. One repository prevents three premature copies. Each engine has a stable machine identity in <code>registry/engines.json</code> and may split without changing its Library identity when independent adoption is real.</p>
+<pre>explicit sources             findings
+      │                         │
+      ▼                         ▼
+Knowledge Engine        Principles Engine       Idea Engine
+grounded claims         credibility gates       evidence gates
+typed relations         corroboration score     ROI/effort/risk
+      └──────────── shared evidence core ─────────────┘
+                SQLite contracts + JSON export</pre>
+<h2>Ownership boundaries</h2><table><tr><th>Owned here</th><th>Owned elsewhere</th></tr>
+<tr><td>Evidence schemas, source identities, quote grounding, rubrics, jury aggregation, deterministic scoring, status, export</td><td>Foundry discovery, scraping, transcript acquisition, model/provider execution, schedulers, MCP hosting, corpora, databases, generated reports</td></tr>
+<tr><td>Idea proposal, rating, and queued state</td><td>Permission to alter another repository or run an autonomous mutation loop</td></tr></table>
+<p class="callout"><b>Evidence first:</b> ungrounded quotes are retained only as rejected records; inferred knowledge must explicitly say it is inferred and carry no fabricated quote. Principles without backing and ideas without evidence cannot enter rating.</p>
+<h2>Scoring</h2><p>Principles pass grounded, actionable, general, and not-contradicted gates. Their score is dominated by source credibility and independently identified corroboration; popularity is never read. Ideas pass grounded, novel, right-layer, and not-gameable gates before ROI, effort, and risk arithmetic. Jury votes are stored; deterministic code computes the result.</p>
+<h2>Evolution</h2><p>Adapters may acquire and distill sources elsewhere, then submit the explicit JSON contracts. A future split is justified by independent installation, maintainership, consumers, or release cadence—not merely folder size.</p>
+<h2>Proof</h2><p><code>script/test</code> exercises grounded and rejected knowledge, backed and unbacked principles, canonical graduation, backed and unbacked ideas, queued graduation, corpus non-retention, and the publication gate.</p>
+<footer>The Great Library of SISO — Built by the SISO Open Source Foundation · Funded by SISO Agency.</footer></body></html>

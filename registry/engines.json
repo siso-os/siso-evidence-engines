@@ -1,0 +1,9 @@
+{
+  "schema_version": "1.0.0",
+  "engines": [
+    {"id":"knowledge","outcome":"Traceable source-grounded knowledge items and relations","input":"Explicit source document plus candidate items","output":"Grounded knowledge registry","split_when":"It gains independent consumers, maintainers, or a release cadence"},
+    {"id":"principles","outcome":"Credibility-ranked engineering principles","input":"Distilled principles, sources, and jury votes","output":"Rated or canonical guidance","split_when":"It becomes independently installable beyond the shared evidence store"},
+    {"id":"ideas","outcome":"Evidence-gated ranked improvement ideas","input":"Findings, evidence, and jury votes","output":"Rated or queued backlog items","split_when":"Its governance lifecycle diverges from research evidence"}
+  ],
+  "shared_primitives":["source identity","quote grounding","provenance","adversarial gates","jury aggregation","deterministic scoring","status transitions","JSON export"]
+}

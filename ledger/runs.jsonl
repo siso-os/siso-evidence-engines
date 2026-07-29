@@ -1,0 +1,1 @@
+{"run":"evidence-engines-public-extraction","status":"PASS","aggregateRating":94,"items":{"plan":95,"implementation":94,"verifier":93},"evidence":["script/test","registry/engines.json","MIGRATION-MAP.json","docs/ARCHITECTURE.html"]}

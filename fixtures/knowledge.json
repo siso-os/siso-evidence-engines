@@ -1,0 +1,9 @@
+{
+  "source": {"locator": "fixture://architecture-study", "title": "Architecture Study", "tier": "research"},
+  "source_text": "The observed teams reduced recovery time by keeping evidence next to decisions. A second result showed that popularity did not predict correctness.",
+  "items": [
+    {"claim": "Decision-local evidence reduced recovery time.", "type": "wisdom", "tag": "cited", "confidence": "verified", "quote": "teams reduced recovery time by keeping evidence next to decisions", "buckets": ["agent-architecture"]},
+    {"claim": "Popularity is not a credibility signal.", "type": "wisdom", "tag": "cited", "confidence": "verified", "quote": "popularity did not predict correctness", "buckets": ["evidence-quality"]},
+    {"claim": "This unquoted synthesis is explicitly inferred.", "type": "opinion", "tag": "opinion", "implicit": true, "quote": "", "buckets": ["synthesis"]}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version":"1.0.0",
+  "source":{"repository":"SISO_Agent_Base","revision":"470226b133b753dafd6a675fb2714330f972e345","paths":["extensions/knowledge-engine","extensions/codex-engine","extensions/idea-engine"],"state":"mixed tracked, modified, and mostly untracked warehouse material; reviewed in place"},
+  "decisions":[
+    {"source":"knowledge-engine value_item schema and quality_gate.py","destination":"knowledge engine and grounding.py","verdict":"reimplemented","reason":"Keep item-level provenance, quote grounding, confidence, types, buckets, and relations."},
+    {"source":"codex-engine rubric.py, propose.py, rate.py and migration","destination":"principles engine and rubrics.py","verdict":"reimplemented","reason":"Keep evidence gate, source tiers, independent corroboration, jury votes, and deterministic scores."},
+    {"source":"idea-engine rubric.py, propose.py, rate.py and migration","destination":"idea engine and rubrics.py","verdict":"reimplemented","reason":"Keep evidence gate, adversarial tests, ROI-effort-risk ranking, and queued lifecycle."},
+    {"source":"knowledge-engine research, github/data, burst_outputs and generated registries","destination":null,"verdict":"data boundary","reason":"Corpora, research reports, and generated knowledge are data products, not reusable engine source."},
+    {"source":"harvesters, transcribers, provider calls, MCP server and Hermes runner","destination":"SISO Foundry or future adapters","verdict":"reclassified","reason":"Source acquisition and continuous operation are Foundry/integration concerns."},
+    {"source":"idea-engine apply.py and launchd jobs","destination":null,"verdict":"excluded","reason":"The public engine records ranked ideas but receives no authority to edit code or schedule machine work."},
+    {"source":"absolute target paths, private database defaults, logs and machine configuration","destination":null,"verdict":"excluded","reason":"Private topology and runtime state are not portable source."}
+  ]
+}

@@ -1,0 +1,4 @@
+[
+  {"title":"Keep evidence beside decisions","statement":"Store a checkable source with every consequential decision.","domain":"architecture","source_tier":"research","sources":[{"locator":"fixture://architecture-study","tier":"research"}],"evidence":"Observed recovery-time result.","citation":"Architecture Study, result one"},
+  {"title":"Trust popularity","statement":"Use popularity as the sole truth signal.","domain":"architecture"}
+]
