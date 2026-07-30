@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/assets/repository-header.png" width="100%" alt="Traceable evidence passing through transparent verification gates into clear verified outputs">
+</p>
+
 # SISO Evidence Engines
 
 Three evidence-gated research engines sharing one small, inspectable core:
