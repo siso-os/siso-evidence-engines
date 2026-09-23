@@ -1,5 +1,7 @@
 # SISO Evidence Engines
 
+**In one line:** Command-line engines that turn explicit sources into cited knowledge items, evidence-ranked engineering principles and ROI-ranked improvement ideas, gating everything on recorded evidence. District: `Great_Library_of_SISO` (`~/SISO_Workspace/Great_Library_of_SISO/works/siso-evidence-engines`).
+
 ## Purpose
 
 Turn explicit sources into traceable knowledge items, engineering principles,
