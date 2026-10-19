@@ -18,6 +18,7 @@
 </p>
 
 <!-- /siso-os:header -->
+> **Archived source repository.** The maintained source now lives in the SISO monorepo at [`Great_Library_of_SISO/works/siso-evidence-engines`](https://github.com/sisodias/siso/tree/main/Great_Library_of_SISO/works/siso-evidence-engines).
 <p align="center">
   <img src="docs/assets/repository-header.png" width="100%" alt="Traceable evidence passing through transparent verification gates into clear verified outputs">
 </p>
