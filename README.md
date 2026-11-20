@@ -11,7 +11,12 @@
   <a href="https://github.com/siso-os/siso-evidence-engines/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/siso-os/siso-evidence-engines?style=flat-square&color=1a1512"></a>
 </p>
 <p align="center">
-  <a href="https://www.sisolabs.space/research/"><img src=".github/assets/preview.gif" width="820" alt="SISO Evidence Engines in action"></a>
+  <a href="https://www.sisolabs.space/research/"><img src=".github/assets/hero.webp" width="820" alt="SISO Evidence Engines in action"></a>
+</p>
+<p align="center">
+  <a href=".github/assets/shot-1.png"><img src=".github/assets/shot-1.png" width="268" alt="SISO Evidence Engines: screenshot 1"></a>
+  <a href=".github/assets/shot-2.png"><img src=".github/assets/shot-2.png" width="268" alt="SISO Evidence Engines: screenshot 2"></a>
+  <a href=".github/assets/shot-3.png"><img src=".github/assets/shot-3.png" width="268" alt="SISO Evidence Engines: screenshot 3"></a>
 </p>
 <p align="center">
   <a href="https://www.sisolabs.space/research/"><b>Website</b></a> · <a href="https://docs.sisolabs.space">Docs</a> · <a href="https://github.com/siso-os">Every SISO OS project</a>
